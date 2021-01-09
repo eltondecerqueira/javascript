@@ -1,1 +1,2 @@
-Date();
+var d = new Date();
+d;
