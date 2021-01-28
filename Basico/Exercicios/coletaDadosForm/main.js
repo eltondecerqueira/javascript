@@ -1,6 +1,6 @@
 function controlaFormulario(){
     const desativaBotao = document.querySelector('.form');
-    const enviar = form.addEventListener('submit');
+    const enviar = desativaBotao.addEventListener('submit');
     enviar.preventDefault();
     
 }
