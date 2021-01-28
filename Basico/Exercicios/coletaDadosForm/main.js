@@ -4,3 +4,5 @@ function controlaFormulario(){
     enviar.preventDefault();
     
 }
+
+controlaFormulario();
