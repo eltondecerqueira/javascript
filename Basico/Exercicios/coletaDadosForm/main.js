@@ -16,10 +16,10 @@ function controlaFormulario(){
         console.log(pessoas);
 
         const criaGrupo = {
-            nome.value;
-            sobrenome.value;
-            peso.value;
-            altura.value;
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            peso: peso.value,
+            altura: altura.value
         }
 
         pessoas.push(criaGrupo)
