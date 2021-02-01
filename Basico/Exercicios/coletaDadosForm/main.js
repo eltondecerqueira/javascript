@@ -15,7 +15,7 @@ function controlaFormulario(){
 
         console.log(pessoas);
 
-        const criaGrupo{
+        const criaGrupo = {
             nome.value;
             sobrenome.value;
             peso.value;
