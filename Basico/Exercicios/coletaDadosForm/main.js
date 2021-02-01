@@ -10,8 +10,8 @@ function controlaFormulario(){
 
         const nome = form.querySelector('.nome');
         const sobrenome = form.querySelector('.sobrenome');
-        const peso = form.querySelector('peso');
-        const altura = form.querySelector('altura');
+        const peso = form.querySelector('.peso');
+        const altura = form.querySelector('.altura');
 
         console.log(pessoas);
 
