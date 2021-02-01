@@ -25,8 +25,8 @@ function controlaFormulario(){
         pessoas.push(criaGrupo)
 
         
-        resultado.innerHTML += criaGrupo;
-
+        resultado.innerHTML += pessoas[pessoas.length-1];
+        
     }
 
     form.addEventListener('submit', recebeEventoForm)
