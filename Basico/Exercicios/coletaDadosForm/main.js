@@ -14,7 +14,7 @@ function controlaFormulario(){
         const altura = form.querySelector('.altura');
 
         console.log(pessoas);
-
+        /*
         const criaGrupo = {
             nome: nome.value,
             sobrenome: sobrenome.value,
@@ -23,15 +23,20 @@ function controlaFormulario(){
         }
 
         pessoas.push(criaGrupo)
-
-        
-        resultado.innerHTML += `${criaGrupo.nome} ${criaGrupo.sobrenome} ${criaGrupo.peso} ${criaGrupo.altura}<br/>`;
-        
+        */        
+        pessoas.push({
+            nome: nome.value,
+            sobrenome: sobrenome.value,
+            peso: peso.value,
+            altura: altura.value
+        })
+  
+       //resultado.innerHTML += `${criaGrupo.nome} ${criaGrupo.sobrenome} ${criaGrupo.peso} ${criaGrupo.altura}<br/>`;
+       resultado.innerHTML += `${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}<br/>`;
+   
     }
 
     form.addEventListener('submit', recebeEventoForm)
-    
-    
 }
 
 controlaFormulario();
