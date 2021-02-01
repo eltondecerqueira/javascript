@@ -25,7 +25,7 @@ function controlaFormulario(){
         pessoas.push(criaGrupo)
 
         
-        resultado.innerHTML += `${criaGrupo.nome criaGrupo.sobrenome criaGrupo.peso criaGrupo.altura}<br/>`;
+        resultado.innerHTML += `${criaGrupo.nome, criaGrupo.sobrenome, criaGrupo.peso, criaGrupo.altura}<br/>`;
         
     }
 
