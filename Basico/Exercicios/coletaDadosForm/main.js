@@ -25,7 +25,7 @@ function controlaFormulario(){
         pessoas.push(criaGrupo)
 
         
-        resultado.innerHTML += pessoas[pessoas.length-1];
+        resultado.innerHTML += pessoas[];
         
     }
 
