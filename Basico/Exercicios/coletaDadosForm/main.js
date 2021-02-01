@@ -33,3 +33,5 @@ function controlaFormulario(){
     
     
 }
+
+controlaFormulario();
