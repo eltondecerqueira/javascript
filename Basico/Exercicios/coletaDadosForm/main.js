@@ -1,8 +1,35 @@
 function controlaFormulario(){
-    const desativaBotao = document.querySelector('.form');
-    const enviar = desativaBotao.addEventListener('submit');
-    enviar.preventDefault();
+    const form = document.querySelector('.form');
+    const resultado = document.querySelector('.resultado');
+
+    const pessoas [];
+
+
+    function recebeEventoForm(evento){
+        evento.preventDefault();
+
+        const nome = form.querySelector('.nome');
+        const sobrenome = form.querySelector('.sobrenome');
+        const peso = form.querySelector('peso');
+        const altura = form.querySelector('altura');
+
+        console.log(pessoas);
+
+        const criaGrupo{
+            nome.value;
+            sobrenome.value;
+            peso.value;
+            altura.value;
+        }
+
+        pessoas.push(criaGrupo)
+
+        
+        resultado.innerHTML += criaGrupo;
+
+    }
+
+    form.addEventListener('submit', recebeEventoForm)
+    
     
 }
-
-controlaFormulario();
